@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Future Nova-Products Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="images/logo-01.png" width="100px">
+            </div>
+            <h3 class="top-heading">FUTURE NOVA</h3>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="product.html">Products</a></li>
+                    <li><a href="about us.html">About</a></li>
+                    <li><a href="index.html">Contact</a></li>
+                </ul>
+            </nav>
+            <img src="images/searchbar.png" width="30px" height="30px">
+            <img src="images/menuicon.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+    </div>
+    
+    <div class="offer">
+        <div class="small-container">
+            <div class="row">
+                <div class="column1">
+                    <img src="images/items1.png" class="offer-img">
+                </div>
+                <div class="column1">
+                    <h1>FUTURE NOVA</h1>
+                    <p>Future Nova as created to fill a unique gap in the skincare industry. We wanted to create the kind of products that were specifically suited to unique skin types. With that in mind we went through several phases of testing to create the best skincare products on the market <p>
+                 
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="small-container">
+        <div class="row">
+            <div class="column4">
+                <img src="images/item23.png" >
+                <div class="rating">
+                </div>
+            </div>
+            <div class="column4">
+                <img src="images/item24.png" >
+                <div class="rating">
+                </div>
+            </div>
+            <div class="column4">
+                <img src="images/item12.png" >
+                <div class="rating">
+                </div>
+            </div>
+            <div class="column4">
+                <img src="images/item2.png" >
+                <div class="rating">
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>DOWNLOAD OUR APP</h3>
+                <p>Chec for IOS or Andriod link</p>
+            </div>
+            <div class="footer-col-2">
+                <img src="images/logo-01.png">
+                <p>Creating the best products on the market</p>
+            </div>
+            <div class="footer-col-3">
+                <h3>USEFUL LINKS</h3>
+                <ul>
+                    <li>COUPOUNS</li>
+                    <li>RESOURCES</li>
+                    <li>RETURN POLICY</li>
+                    <li>JOIN THE NEWSLETTER</li>
+                </ul>
+            </div>
+            <div class="footer-col-3">
+                <h3>FOLLOW US</h3>
+                <ul>
+                    <li>FACEBOOK</li>
+                    <li>TWITTER</li>
+                    <li>INSTAGRAM</li>
+                    <li>YOUTUBE</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!----------js for toggle menu---------->
+<script>
+ var MenuItems = document.getElementById("MenuItems");
+MenuItems.style.maxHeight = "0px";
+
+function menutoggle() {
+    if (MenuItems.style.maxHeight === "0px") {
+        MenuItems.style.maxHeight = "200px";
+    } else {
+        MenuItems.style.maxHeight = "0px";
+    }
+}
+
+
+</script>
+
+
+
+</body>
+</html>
